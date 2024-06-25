@@ -1,7 +1,6 @@
 # https://gymnasium.farama.org/content/basic_usage/
 
 import gymnasium as gym
-from gymnasium.wrappers import FlattenObservation
 
 env = gym.make("CartPole-v1", render_mode="human")
 # env = gym.make("LunarLander-v2", render_mode="human")
